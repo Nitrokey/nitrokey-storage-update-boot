@@ -7,6 +7,8 @@ Upon start of the bootable image, before the login prompt, the main tool should 
 
 In future, the image should shut down after the process completion and some delay/confirmation, to show user the success message (and further instructions).
 
+## Usage guide
+For end-user usage instructions please see [Usage Guide](boot-image-usage-guide.md).
 
 ## Setup and release
 
