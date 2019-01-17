@@ -1,7 +1,9 @@
 # Using the bootable image
 Here are presented instructions to activate the 'update' mode on Nitrokey Storage via the bootable image, for Windows 10 1809 users. 
 
-This guide is applicable only to users of Windows 10 1809 (and newer), and Nitrokey Storage with firmware version v0.52 (and older). Users of older Windows releases, or newer Storage firmware versions, should follow the [main firmware update guide].
+|Warning|
+|-----|
+|This guide is applicable only to users of Windows 10 1809 (and newer), and Nitrokey Storage with firmware version v0.52 (and older). Users of older Windows releases, or newer Storage firmware versions, should follow the [main firmware update guide].|
 
 [main firmware update guide]: https://www.nitrokey.com/en/documentation/firmware-update-storage
 

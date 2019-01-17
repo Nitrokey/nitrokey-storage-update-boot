@@ -2,6 +2,12 @@
 
 This repository contains files to build bootable Linux image for automatically enabling the update mode in the Nitrokey Storage (e.g. via the Virtual Box) on the Windows 10 1809 build, where Nitrokey App cannot connect with the device at the moment.
 
+|Warning|
+|-----|
+|This guide is applicable only to users of Windows 10 1809 (and newer), and Nitrokey Storage with firmware version v0.52 (and older). Users of older Windows releases, or newer Storage firmware versions, should follow the [main firmware update guide].|
+
+[main firmware update guide]: https://www.nitrokey.com/en/documentation/firmware-update-storage
+
 ## Expected execution
 Upon start of the bootable image, before the login prompt, the main tool should be run, which will ask user to insert the Nitrokey Storage device, and after detecting it will try to set it to `update` mode with the default update password, and on failure will ask user to provide the current update password.
 
