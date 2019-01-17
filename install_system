@@ -1,0 +1,9 @@
+py3-cffi
+hidapi
+libstdc++
+libgcc
+openrc
+#rsync
+#python3-dev
+#hidapi-dev
+

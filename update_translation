@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+
+# Run on update of the source file (*.py) or translation file (*.po)
+# Produces (*.mo) files, which are used for the actual translation
+
+FILES=`find . -type f -name '*.py' | grep -v -e libnitrokey -e venv -e _init_ | sort`
+
+TARGETS=locales/de/LC_MESSAGES/messages.mo locales/en/LC_MESSAGES/messages.mo
+SOURCES=./run_update_mode.py locales/messages.po locales/de/messages.po locales/en/messages.po
+
+all:
+	#--no-location
+	pybabel extract --add-location file -o locales/messages.po --sort-by-file -k 'tr'  ${FILES}
+
+	pybabel update -i locales/messages.po -d locales --previous --ignore-obsolete false --no-wrap
+	pybabel compile -d locales -f
+	wc -l locales/messages.po

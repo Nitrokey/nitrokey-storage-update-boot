@@ -1,0 +1,110 @@
+# Translations template for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-01-16 18:41+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: run_update_mode.py
+msgid "Selected language: {} ({} {})"
+msgstr ""
+
+#: run_update_mode.py
+msgid "language"
+msgstr ""
+
+#: run_update_mode.py
+msgid ""
+"\n"
+"Connected device: {} 0.{}"
+msgstr ""
+
+#: run_update_mode.py
+msgid "Executing system shutdown in {SHUTDOWN_DELAY} seconds."
+msgstr ""
+
+#: run_update_mode.py
+msgid ""
+"Once PC is powered off, please remove the USB flash drive to prevent "
+"another boot of the tool."
+msgstr ""
+
+#: run_update_mode.py
+msgid "Executing system shutdown."
+msgstr ""
+
+#: run_update_mode.py
+msgid "CTRL+C registered. Calling system shutdown."
+msgstr ""
+
+#: run_update_mode.py
+msgid ""
+"Successfully enabled the update mode. Please run the Nitrokey Update Tool"
+" under Windows to update the firmware."
+msgstr ""
+
+#: run_update_mode.py
+msgid ""
+"This tool will activate the update mode on a Nitrokey Storage device. It "
+"is recommended for Windows 10 1809 users, where the device is not "
+"detected by the Nitrokey App, making the update mode activation not "
+"possible."
+msgstr ""
+
+#: run_update_mode.py
+msgid ""
+"Please do not remove the flash memory stick for the time of the "
+"activation."
+msgstr ""
+
+#: run_update_mode.py
+msgid ""
+"If you would like to exit before the device is inserted, please simply "
+"press power off switch on your computer, \n"
+"and remove the USB flash memory stick with the tool."
+msgstr ""
+
+#: run_update_mode.py
+msgid "Tool ready to work"
+msgstr ""
+
+#: run_update_mode.py
+msgid "Please insert Nitrokey Storage device to an empty USB slot"
+msgstr ""
+
+#: run_update_mode.py
+msgid "Device connected. Trying default password - \"{}\"."
+msgstr ""
+
+#: run_update_mode.py
+msgid "Default firmware password has not worked."
+msgstr ""
+
+#: run_update_mode.py
+msgid ""
+"Please provide firmware update password, to switch the device into the "
+"update mode. \n"
+"The password will be displayed on the screen. This is not a PIN password."
+" Its length is between 8 and 20 characters."
+msgstr ""
+
+#: run_update_mode.py
+msgid "Firmware password: "
+msgstr ""
+
+#: run_update_mode.py
+msgid "Invalid password. Please try again."
+msgstr ""
+

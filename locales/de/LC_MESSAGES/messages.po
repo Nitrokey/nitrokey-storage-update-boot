@@ -1,0 +1,98 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-01-16 18:41+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: run_update_mode.py
+msgid "Selected language: {} ({} {})"
+msgstr ""
+
+#: run_update_mode.py
+msgid "language"
+msgstr ""
+
+#: run_update_mode.py
+msgid ""
+"\n"
+"Connected device: {} 0.{}"
+msgstr "Angeschlossenes Gerät: {} 0.{}"
+
+#: run_update_mode.py
+msgid "Executing system shutdown in {SHUTDOWN_DELAY} seconds."
+msgstr "Systemabschaltung in {SHUTDOWN_DELAY} Sekunden durchführen."
+
+#: run_update_mode.py
+msgid "Once PC is powered off, please remove the USB flash drive to prevent another boot of the tool."
+msgstr "Nach dem Ausschalten des PCs entfernen Sie bitte den USB-Stick, um einen erneuten Start des Tools zu verhindern."
+
+#: run_update_mode.py
+msgid "Executing system shutdown."
+msgstr "Systemabschaltung durchführen."
+
+#: run_update_mode.py
+msgid "CTRL+C registered. Calling system shutdown."
+msgstr "STRG+C registriert. Ich rufe die Systemabschaltung an."
+
+#: run_update_mode.py
+msgid "Successfully enabled the update mode. Please run the Nitrokey Update Tool under Windows to update the firmware."
+msgstr "Der Update-Modus wurde erfolgreich aktiviert. Bitte führen Sie das Nitrokey Update Tool unter Windows aus, um die Firmware zu aktualisieren."
+
+#: run_update_mode.py
+msgid "This tool will activate the update mode on a Nitrokey Storage device. It is recommended for Windows 10 1809 users, where the device is not detected by the Nitrokey App, making the update mode activation not possible."
+msgstr "Dieses Tool aktiviert den Update-Modus auf einem Nitrokey Storage-Gerät. Es wird für Benutzer von Windows 10 1809 empfohlen, bei denen das Gerät nicht von der Nitrokey App erkannt wird, so dass die Aktivierung des Update-Modus nicht möglich ist."
+
+#: run_update_mode.py
+msgid "Please do not remove the flash memory stick for the time of the activation."
+msgstr "Bitte entfernen Sie den Flash-Speicherstick für die Zeit der Aktivierung nicht."
+
+#: run_update_mode.py
+msgid ""
+"If you would like to exit before the device is inserted, please simply press power off switch on your computer, \n"
+"and remove the USB flash memory stick with the tool."
+msgstr ""
+"Wenn Sie das Gerät vor dem Einsetzen verlassen möchten, drücken Sie einfach den Ausschalter an Ihrem Computer, \n"
+"und entfernen Sie den USB-Flash-Speicherstick mit dem Tool."
+
+#: run_update_mode.py
+msgid "Tool ready to work"
+msgstr "Werkzeug einsatzbereit"
+
+#: run_update_mode.py
+msgid "Please insert Nitrokey Storage device to an empty USB slot"
+msgstr "Bitte stecken Sie das Nitrokey-Speichergerät in einen freien USB-Steckplatz."
+
+#: run_update_mode.py
+msgid "Device connected. Trying default password - \"{}\"."
+msgstr "Gerät verbunden. Ich versuche das Standardpasswort - \"{}\""
+
+#: run_update_mode.py
+msgid "Default firmware password has not worked."
+msgstr "Standard-Firmwarepasswort hat nicht funktioniert."
+
+#: run_update_mode.py
+msgid ""
+"Please provide firmware update password, to switch the device into the update mode. \n"
+"The password will be displayed on the screen. This is not a PIN password. Its length is between 8 and 20 characters."
+msgstr ""
+"Bitte geben Sie das Passwort für das Firmware-Update an, um das Gerät in den Update-Modus zu versetzen. \n"
+"Das Passwort wird auf dem Bildschirm angezeigt. Dies ist kein PIN-Passwort. Seine Länge beträgt zwischen 8 und 20 Zeichen."
+
+#: run_update_mode.py
+msgid "Firmware password: "
+msgstr "Firmware-Passwort: "
+
+#: run_update_mode.py
+msgid "Invalid password. Please try again."
+msgstr "Ungültiges Passwort. Bitte versuchen Sie es noch einmal."
+

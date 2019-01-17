@@ -1,0 +1,11 @@
+#!/sbin/openrc-run
+
+name="nitrokey update"
+command="/usr/bin/python3 /root/nitrokey/run_update_mode.py"
+pidfile="/var/run/nk-update.pid"
+command_args="$CRON_OPTS"
+
+depend() {
+	need localmount
+	need logger
+}
