@@ -1,15 +1,9 @@
 # Using the bootable image
-Here are presented instructions to activate the 'update' mode on Nitrokey Storage via the bootable image, for Windows 10 1809 users. 
-
-|Warning|
-|-----|
-|This guide is applicable only to users of Windows 10 1809 (and newer), and Nitrokey Storage with firmware version v0.52 (and older). Users of older Windows releases, or newer Storage firmware versions, should follow the [main firmware update guide].|
-
-[main firmware update guide]: https://www.nitrokey.com/en/documentation/firmware-update-storage
+Here are presented instructions to activate the 'update' mode on Nitrokey Storage via the bootable image. This guide is applicable only to users of Windows 10 1809 (and newer), and Nitrokey Storage with firmware version v0.52 (and older). Users of older Windows releases, or newer Storage firmware versions, should follow the [main firmware update guide]: https://www.nitrokey.com/en/documentation/firmware-update-storage .
 
 ## Before starting
-- Verify the image file before flashing, if possible.
-- Select a USB flash drive to use. The drive should have at least 400 MB of size. **Warning**: all data there will be overwritten. 
+- Verify the image file's checksum before flashing, if possible.
+- You need a USB flash drive. The drive should have at least 400 MB of size. **Warning**: all data there will be overwritten. 
 - Make a backup of the data of a selected USB drive for flashing. Again, device will be overwritten by the image file, and all data will be lost there.
 - Remove all other USB storage devices to make sure they will not be overwritten.
 
